@@ -7,6 +7,11 @@ public class Carro {
 	int velocidade;
 	String nome;
 	
+	Carro(int potencia){
+		this.potencia = potencia;
+		velocidade=0;
+	}
+	
 	void acelerar(){
 		
 		velocidade += potencia;
